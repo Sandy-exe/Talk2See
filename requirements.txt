@@ -1,0 +1,9 @@
+opencv-python
+numpy
+requests
+pytesseract
+matplotlib
+pyttsx3
+ultralytics
+openai==0.28
+cvzone
