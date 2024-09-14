@@ -1,6 +1,8 @@
 import requests
 
-API_TOKEN = "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"
+YOUR_HUGGINGFACE_API_KEY = ''
+
+API_TOKEN = YOUR_HUGGINGFACE_API_KEY
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
