@@ -50,7 +50,14 @@
 - `modules/yolo_module.py`: Contains YOLO object detection logic.
 - `modules/ocr_module.py`: Handles OCR using Tesseract.
 - `modules/image_captioning.py`: Manages image captioning via the Hugging Face API.
-- `modules/gpt_module.py`: Integrates with OpenAI's ChatGPT.
+- `modules/gpt_module.py`: Integrates with OpenAI's ChatGPT.Lists required Python packages.
 - `modules/tts_module.py`: Manages text-to-speech functionality.
+- `modules/voice_module.py` : Getting Voice Input
 - `modules/utils.py`: Utility functions like blur detection and thread management.
 - `requirements.txt`: Lists required Python packages.
+- `modules/tts_module.py`: Manages text-to-speech functionality.
+- 
+
+
+- `modules/tts_module.py`: Manages text-to-speech functionality.
+-
