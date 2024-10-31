@@ -4,6 +4,7 @@ requests
 pytesseract
 matplotlib
 pyttsx3
+speechrecognition
 ultralytics
 openai==0.28
 cvzone

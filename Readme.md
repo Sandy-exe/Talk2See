@@ -13,33 +13,35 @@
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/Sandy-exe/Talk2See.git
-    cd Talk2See
-    ```
 
+   ```bash
+   git clone https://github.com/Sandy-exe/Talk2See.git
+   cd Talk2See
+   ```
 2. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Configuration
 
 1. **Obtain API Keys**:
+
    - **OpenAI API Key**: Sign up at [OpenAI](https://www.openai.com/) and obtain an API key.
    - **Hugging Face API Key**: Sign up at [Hugging Face](https://huggingface.co/) and get an API key for image captioning.
-
 2. **Update API Keys**:
+
    - Open `modules/gpt_module.py` and replace `YOUR_OPENAI_API_KEY` with your OpenAI API key.
    - Open `modules/image_captioning.py` and replace `YOUR_HUGGINGFACE_API_KEY` with your Hugging Face API key.
 
 ## Usage
 
 1. **Run the main application**:
-    ```bash
-    python main.py
-    ```
 
+   ```bash
+   python main.py
+   ```
 2. The application will start the camera feed and continuously process frames. It will provide feedback through text-to-speech based on the analysis of the camera input.
 
 ## File Structure
@@ -52,4 +54,3 @@
 - `modules/tts_module.py`: Manages text-to-speech functionality.
 - `modules/utils.py`: Utility functions like blur detection and thread management.
 - `requirements.txt`: Lists required Python packages.
-
